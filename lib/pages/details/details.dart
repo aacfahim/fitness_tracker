@@ -5,7 +5,7 @@ import 'package:fitness_app/pages/details/widgets/stats.dart';
 import 'package:fitness_app/pages/details/widgets/steps.dart';
 import 'package:flutter/material.dart';
 
-import '../../../widgets/bottom_navigation.dart';
+import '../../widgets/bottom_navigation.dart';
 
 class DetailsPage extends StatelessWidget {
   const DetailsPage({Key? key}) : super(key: key);
