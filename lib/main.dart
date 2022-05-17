@@ -16,7 +16,15 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Fitness Tracker',
-      theme: ThemeData(),
+      theme: ThemeData(
+        textTheme: TextTheme(
+          headline1: TextStyle(
+            fontSize: 14,
+            color: Colors.black,
+            fontWeight: FontWeight.w900,
+          ),
+        ),
+      ),
       debugShowCheckedModeBanner: false,
       routes: {
         '/': (context) => HomePage(),
